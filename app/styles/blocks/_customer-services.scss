@@ -1,0 +1,76 @@
+.customer-services-map {
+  background-color: #e2e2e2;
+  height: 614px;
+  margin: 0 0 70px;
+}
+
+.customer-services {
+
+  &__store,
+  &__help {
+    display: block;
+    float: left;
+    width: 50%;
+  }
+
+  &__store {
+    border-right: 1px solid #a1907e;
+  }
+
+  &__help {
+    padding: 0 0 0 80px;
+  }
+
+  &__store-title,
+  &__help-title {
+    @extend .bonus-cards__benefits-title;
+  }
+
+  &__store-subtitle {
+    color: #120400;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    margin: 30px 0 15px;
+  }
+
+  &__store-link {
+    display: block;
+    color: #120400;
+    line-height: 25px;
+    text-decoration: underline;
+    margin: 15px 0 0;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  &__help-title {
+    //margin: 0 0 30px;
+  }
+
+  &__help-text {
+    color: #2d2d2d;
+    line-height: 25px;
+  }
+
+  &__text {
+    @extend .bonus-cards__list;
+    margin-left: 0;
+  }
+
+  &__link {
+    display: block;
+    margin: 40px 0 30px;
+    color: #2d2d2d;
+    font-size: 20px;
+    line-height: 25px;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+}

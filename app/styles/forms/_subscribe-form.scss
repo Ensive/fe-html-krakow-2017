@@ -1,0 +1,53 @@
+.subscribe-form {
+  margin: 54px 0 0;
+
+  &__field {
+    margin: 0 0 40px;
+
+    &.mod-country {
+      margin-top: 7px;
+    }
+  }
+
+  &__input-text,
+  &__label {
+    color: #939393;
+    font-family: $lato;
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: uppercase;
+  }
+
+  &__input-text {
+    border: 0;
+    border-bottom: 1px solid #c0c0c0;
+    min-width: 306px;
+    padding: 0 0 5px 3px;
+  }
+
+  &__label {
+    display: block;
+    margin: 0 0 22px;
+  }
+
+  &__input-checkbox {
+    margin: 0 18px 0 0;
+  }
+
+  &__label-checkbox {
+    margin: 0 20px 0 0;
+  }
+
+  &__submit {
+    background-color: #1e1e1e;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 52px;
+    line-height: 16px;
+    text-transform: uppercase;
+    width: 245px;
+    margin: 15px 0 0;
+  }
+}

@@ -1,0 +1,102 @@
+.arrivals {
+  padding-bottom: 75px;
+  padding-top: 170px;
+
+  &__title {
+    //margin: 0 0 124px;
+  }
+
+  &__item {
+    background: #a6926c url('../images/arrivals/arrivals-1.jpg');
+    border: 5px solid #b3a282;
+    color: #fff;
+    display: block;
+    float: left;
+    // TODO: fix
+    height: 824px;
+    margin: 119px 8.980213089802% 0 0;
+    padding: 40px;
+    position: relative;
+    text-align: center;
+    width: 45.509893455099%;
+
+    &::before {
+      background-color: #a6926c;
+      bottom: 0;
+      content: '';
+      display: block;
+      //display: none;
+      height: 100%;
+      left: 0;
+      //opacity: .85;
+      opacity: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      transition: opacity .2s ease-in;
+      width: 100%;
+    }
+
+    &:nth-of-type(2n) { margin-right: 0; }
+
+    &.mod-2 { background: #a6926c url('../images/arrivals/arrivals-2.jpg'); background-size: cover; }
+    &.mod-3 { background: #a6926c url('../images/arrivals/arrivals-3.jpg'); background-size: cover; }
+    &.mod-4 { background: #a6926c url('../images/arrivals/arrivals-4.jpg'); background-size: cover; }
+
+    &:hover {
+      &::before {
+        //display: block;
+        opacity: .85;
+      }
+
+      .arrivals__item-content {
+        display: block;
+        opacity: 1;
+        transform: scale(1.0);
+      }
+    }
+  }
+
+  &__item-content {
+    border: 4px solid #eee;
+    //display: none;
+    //display: block;
+    height: 100%;
+    opacity: 0;
+    position: relative;
+    transform: scale(0.5);
+    transition: transform .2s ease-in, opacity .2s ease-in;
+    width: 100%;
+    z-index: 1;
+  }
+
+  &__brand,
+  &__collection {
+    line-height: 32px;
+  }
+
+  &__brand {
+    font-size: 42px;
+    font-weight: 700;
+    margin: 58% 0 8px;
+  }
+
+  &__collection {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 44px;
+  }
+
+  &__link {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 16px;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+}

@@ -1,0 +1,39 @@
+.signup {
+  background-color: #a1907e;
+  color: #fff;
+  padding: 62px 0 33px;
+  //min-height: 251px;
+  text-align: center;
+
+  &__title {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 16px;
+    margin: 0 0 33px;
+  }
+
+  &__text {
+    font-size: 18px;
+    line-height: 16px;
+    margin: 0 0 39px;
+  }
+
+  &__button {
+    padding: 2px 0 0;
+    background: #fff;
+    border: 2px solid transparent;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    height: 52px;
+    line-height: 16px;
+    text-transform: uppercase;
+    width: 245px;
+    cursor: pointer;
+    transition: border-color .3s ease;
+
+    &:hover {
+      border-color: #000;
+    }
+  }
+}

@@ -29,7 +29,7 @@ body {
 
 body {
   color: $base-color;
-  font-family: $open-sans;
+  font-family: $lato;
   overflow-x: hidden;
 }
 
@@ -39,43 +39,28 @@ img {
 
 .container {
   margin: 0 auto;
-  //max-width: 1314px; // 1170
   max-width: 1440px;
   padding: 0 63px;
   width: 100%;
 }
 
-//.hero-unit {
-//  margin: 50px auto 0 auto;
-//  width: 300px;
-//  font-size: 18px;
-//  font-weight: 200;
-//  line-height: 30px;
-//  background-color: #eee;
-//  border-radius: 6px;
-//  padding: 60px;
-//  h1 {
-//    font-size: 60px;
-//    line-height: 1;
-//    letter-spacing: -1px;
-//  }
-//}
-
 // shared components
-@import 'components/text';
-//@import 'components/title';
-//@import 'components/input';
+@import 'components/title';
 
 // layout
 @import 'layout/header';
 @import 'layout/category-menu';
+@import 'layout/signup';
+@import 'layout/footer';
 
 // blocks
 @import 'blocks/denim';
 @import 'blocks/promo';
-@import 'blocks/_brands'
-//@import 'blocks/watch';
-//@import 'blocks/team';
-//@import 'blocks/customers';
-//@import 'blocks/contact';
-//@import 'blocks/footer';
+@import 'blocks/brands';
+@import 'blocks/arrivals';
+@import 'blocks/bonus-cards';
+@import 'blocks/customer-services';
+
+// forms
+@import 'forms/subscribe-form';
+@import 'forms/search';

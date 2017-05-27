@@ -6,7 +6,7 @@
   width: 100%;
 
   &__img {
-    background: #fff url('../../images/bonus-cards-promo-img.jpg') no-repeat center center;
+    background: #fff url('../images/bonus-cards-promo-img.jpg') no-repeat center center;
     background-size: cover;
     float: left;
     height: 100%;
@@ -17,7 +17,6 @@
   &__message {
     color: #fff;
     float: right;
-    font-family: $lato;
     padding: 37px 0 5px 0;
     text-align: center;
     width: 65.208333333333%;
