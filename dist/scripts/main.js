@@ -1,0 +1,1 @@
+"use strict";!function(){var s=$(".js-carousel"),r={appendArrows:$(".js-carousel-arrows"),prevArrow:'<button class="brands__arrows-left"><</button>',nextArrow:'<button class="brands__arrows-right">></button>',slidesToShow:4,slidesToScroll:1,dots:!1,mobileFirst:!0,slide:".brands__item"};!function(){s.slick(r)}()}();
