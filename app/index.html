@@ -30,9 +30,48 @@
     <![endif]-->
 
 
-    <header class="header">
-      <div class="header__search"></div>
+    <header class="header container">
+      <div class="header__search">
+        <form action="#">
+          <button type="submit"></button>
+          <input type="search" placeholder="Search">
+        </form>
+      </div>
+      <div class="header__logo" role="banner">
+        <img src="images/desirred-logo.jpg" alt="Desired Logo">
+      </div>
+      <nav class="header__menu">
+        <a href="#bonus" class="header__link">Bonus cards</a>
+        <a href="#customer" class="header__link">Customer Services</a>
+      </nav>
     </header>
+
+    <nav class="category-menu">
+      <a href="#women" class="category-menu__link">Women</a>
+      <a href="#men" class="category-menu__link">Men</a>
+      <a href="#kids" class="category-menu__link">Kids</a>
+      <a href="#home" class="category-menu__link">Home</a>
+    </nav>
+
+    <section class="denim u-clear">
+      <h2 class="denim__title">Denim Collection</h2>
+      <a href="#view-all" class="denim__link">View all</a>
+      <!--<img src="images/denim-lily-bg.jpg" alt="Denim Collection">-->
+    </section>
+
+    <section class="promo u-clear">
+      <figure class="promo__img"></figure>
+      <div class="promo__message">
+        <h2 class="promo__title">
+          Bonus cards promo
+        </h2>
+        <h3 class="promo__subtitle">
+          SALES
+          <br />
+          <span class="promo__text">UP TO 40%</span>
+        </h3>
+      </div>
+    </section>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
@@ -42,6 +81,22 @@
       e.src='https://www.google-analytics.com/analytics.js';
       r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
       ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- WebFont -->
+    <script>
+      var WebFontConfig = {
+        google: { families: [ 'Lato:400,400i,700,700i,900:latin', 'Open Sans:400,700:latin'] }
+      };
+
+      (function () {
+        var wf = document.createElement('script');
+        wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+      })();
     </script>
 
     <!-- build:js scripts/vendor.js -->

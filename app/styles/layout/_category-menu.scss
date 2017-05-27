@@ -1,0 +1,21 @@
+.category-menu {
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 1px solid #e2e2e2;
+  height: 69px;
+  padding: 26px 0 0;
+  text-align: center;
+  width: 100%;
+
+  &__link {
+    color: $link-color;
+    font-family: $lato;
+    line-height: 16px;
+    margin: 0 29px 0 31px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

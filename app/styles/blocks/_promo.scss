@@ -1,0 +1,48 @@
+.promo {
+  background-color: #a1907e;
+  height: 100%;
+  margin: 14px 0 0;
+  max-height: 317px;
+  width: 100%;
+
+  &__img {
+    background: #fff url('../../images/bonus-cards-promo-img.jpg') no-repeat center center;
+    background-size: cover;
+    float: left;
+    height: 100%;
+    max-height: 317px;
+    width: 34.791666666667%;
+  }
+
+  &__message {
+    color: #fff;
+    float: right;
+    font-family: $lato;
+    padding: 37px 0 5px 0;
+    text-align: center;
+    width: 65.208333333333%;
+    //width: 939px;
+  }
+
+  &__title,
+  &__subtitle {
+    margin: 0 0 0 -10px;
+  }
+
+  &__title {
+    //margin: 37px 0 0;
+    font-size: 27px;
+    line-height: 78px;
+    text-transform: uppercase;
+  }
+
+  &__subtitle {
+    font-size: 62px;
+    font-weight: 900;
+    line-height: 68px;
+  }
+
+  &__text {
+    letter-spacing: 3px;
+  }
+}

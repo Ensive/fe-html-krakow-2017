@@ -1,0 +1,37 @@
+// TODO: refactor line-height: 16px;
+.denim {
+  background: #ccc url('../../images/denim-lily-bg.jpg');
+  background-size: cover;
+  height: 100%;
+  margin: 1px 0 0 0;
+  max-height: 457px;
+  text-align: center;
+  width: 100%;
+
+  &__title {
+    color: #fff;
+    font-family: $lato;
+    font-size: 62px;
+    font-weight: 900;
+    line-height: 16px;
+    margin: 170px 0 0;
+    text-shadow: 0 0 21px rgba(90, 59, 16, 0.44);
+  }
+
+  &__link {
+    display: block;
+    color: #fff;
+    font-family: $lato;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 16px;
+    margin: 53px 0 0;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+
